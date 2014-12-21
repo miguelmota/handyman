@@ -1,0 +1,22 @@
+{
+  "name": "handyman",
+  "main": "handyman.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/handyman",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Web Worker with Promise",
+  "keywords": [
+    "web worker",
+    "promises"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}

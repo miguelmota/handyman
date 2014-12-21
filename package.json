@@ -1,0 +1,42 @@
+{
+  "name": "handyman",
+  "version": "0.0.1",
+  "description": "Web Worker with Promise",
+  "main": "handyman.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/handyman"
+  },
+  "keywords": [
+    "web worker",
+    "promises"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/handyman/issues"
+  },
+  "homepage": "https://github.com/miguelmota/handyman",
+  "dependencies": {
+    "tape": "^3.0.3"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  }
+}
