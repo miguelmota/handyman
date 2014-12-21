@@ -16,7 +16,7 @@ bower install handyman
 
 # Usage
 
-With Promises:
+With Promise:
 
 ```javascript
 var square = handyman(function(number) {
@@ -36,7 +36,7 @@ square(2).then(function(result) {
 });
 ```
 
-With callbacks:
+With callback:
 
 ```javascript
 var square = handyman(function(number, callback) {
